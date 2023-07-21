@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+    <div class="header">
+        <h1>Haircuts</h1>
+        <hr>
+
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="asssets/326965676_2054424541407794_6911032998514820501_n.jpg" style="width:100%">
+            <img src="asssets/56ab48c5-4440-4326-91f2-2cdb8973e500.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="asssets/The Taper Hairstyle For Men.jpeg" style="width:100%">
+            <img src="asssets/Top 100 Best Haircuts For Men In 2021.jpeg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="asssets/21 Hottest Fohawk (Faux Hawk) Haircuts & Hairstyles for Men in 2023.jpeg"
+                style="width:100%">
+            <img src="asssets/Amazing Korean bob hairstyle ideas _ Summer hairstyle.jpeg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="asssets/✿.jpeg" style="width:100%">
+            <img src="asssets/Hair style for man.jpeg" style="width:100%">
+
+
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <p style="text-align: center;">© 2023 Ikhsan Angga Nursyifa</p>
+    </footer>
+</body>
+
+</html>
